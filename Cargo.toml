@@ -3,3 +3,4 @@ name = "aoc2019d2"
 version = "1.0.0"
 authors = ["Raphaël Thériault <raphael_theriault@outlook.com>"]
 edition = "2018"
+license = "MIT"
