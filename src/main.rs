@@ -1,3 +1,14 @@
+//! # aoc2019d2
+//!
+//! Part 2 of the day 2 challenge for Advent of Code 2019
+//! but it's pretty fast
+//!
+//! ## Usage
+//!
+//! ```
+//! $ cargo run --release -- <TARGET_RESULT> <INPUT_FILE> <THREAD_COUNT>
+//! ```
+
 use std::{env, fs, sync::mpsc, thread, time::Instant};
 
 /// Parses the target result, input file and thread count from the arguments
